@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Complete Event" enabled="true" name="cl">addEventListener( Event.COMPLETE, ${cursor} );</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Event constant string declaration" enabled="true" name="et">public static const ${param} : String = "${param}";</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Mouse Listener" enabled="true" name="ml">addEventListener( MouseEvent.CLICK, ${cursor} );</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Method Trace" enabled="true" name="mt">trace("${enclosing_type}.${enclosing_method}(",[${enclosing_method_arguments}],")");</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Private Function" enabled="true" name="prf">private function ${cursor}() : void&#13;
+{&#13;
+	${cursor}&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Public Function" enabled="true" name="puf">public function ${cursor}() : void&#13;
+{&#13;
+	&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="" enabled="true" name="singleton">package ${enclosing_package}&#13;
+{&#13;
+	public class ${enclosing_type}&#13;
+	{&#13;
+		public static var instance :  ${enclosing_type};&#13;
+&#13;
+		public static function getInstance() :  ${enclosing_type}&#13;
+		{&#13;
+			if( instance == null ) instance = new  ${enclosing_type}( new SingletonEnforcer( ) );&#13;
+			return instance;&#13;
+		}&#13;
+&#13;
+		public function ${enclosing_type}( pvt : SingletonEnforcer )&#13;
+		{&#13;
+			${cursor}&#13;
+		}&#13;
+	}&#13;
+}&#13;
+&#13;
+internal class SingletonEnforcer {}</template></templates>

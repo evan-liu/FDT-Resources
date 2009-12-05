@@ -1,0 +1,5 @@
+*templates-eidiot.xml*
+By "eidiot":http://eidiot.net/2009/12/01/my-fdt-templates-file/
+
+*templates-paul.xml *
+By "Paul":http://www.breaktrycatch.com/?p=52
