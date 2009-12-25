@@ -12,6 +12,8 @@
 //  Class public methods&#13;
 //==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class variables" enabled="true" name="Ccvariables">//==========================================================================&#13;
 //  Class variables&#13;
+//==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Dependencies" enabled="true" name="Cdependencies">//==========================================================================&#13;
+//  Dependencies&#13;
 //==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Event handlers" enabled="true" name="Cehandlers">//==========================================================================&#13;
 //  Event handlers&#13;
 //==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Events" enabled="true" name="Cevents">//------------------------------------&#13;
