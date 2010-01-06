@@ -93,8 +93,7 @@ public function ${test}():void {
 public function ${setUp}():void {
   ${cursor}
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Event metedata" enabled="true" name="Mevent">[Event(name="${complete}", type="${Event}")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Inject metadata" enabled="true" name="Minject">[Inject]&#13;
-public var ${name}:${Type};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="PostConstruct" enabled="true" name="Mpostconstruct">[PostConstruct]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Suite metadata" enabled="true" name="Msuite">[Suite]&#13;
-[RunWith("org.flexunit.runners.Suite")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Test suite metadata tag." enabled="true" name="Msuite">[Suite]
+public var ${name}:${Type};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="PostConstruct" enabled="true" name="Mpostconstruct">[PostConstruct]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Test suite metadata tag." enabled="true" name="Msuite">[Suite]
 [RunWith("org.flexunit.runners.Suite")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="swf metadata" enabled="true" name="Mswf">[SWF(width="${550}", height="${400}", backgroundColor="${0xFFFFFF}", frameRate="${30}")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Test metadata" enabled="true" name="Mtest">[Test]
 public function ${test}():void {
   ${cursor}
@@ -112,6 +111,24 @@ public function set ${p}(value:${type}):void {&#13;
   _${p} = value;&#13;
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="setter" enabled="true" name="setteronly">public function set ${p}(value:${type}):void {&#13;
   _${p} = value;&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Set up test case" enabled="true" name="setuptestcase">//==========================================================================
+//  Variables
+//==========================================================================
+private var instance:${Type};
+//==========================================================================
+//  Public methods
+//==========================================================================
+[Before]
+public function ${setUp}():void {
+  instance = new ${Type}();
+}
+[After]
+public function ${tearDown}():void {
+  instance = null;
+}
+[Test]
+public function ${test}():void {
+  ${cursor}
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="trace current method" enabled="true" id="com.powerflasher.fdt.ui.editor.template.systrace" name="systrace">trace("${cursor}");</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="creates toString function" enabled="true" id="com.powerflasher.fdt.ui.editor.template.toString" name="toString">override public function toString():String {
   return "${enclosing_package_and_type}";
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public function" enabled="true" name="ufunction">public function ${func}(${cursor}):${void} {&#13;
