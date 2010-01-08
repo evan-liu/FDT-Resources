@@ -73,11 +73,6 @@ public function set ${p}(value:${type}):void {&#13;
   _${p} = value;&#13;
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="trace here" enabled="true" name="heret">"[${enclosing_type}/${enclosing_method}]"</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private function" enabled="true" name="ifunction">private function ${func}(${cursor}):${void} {&#13;
   &#13;
-}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates an empty interface" enabled="true" id="com.powerflasher.fdt.ui.editor.template.interface" name="interface">/**
- * @author ${user}
- */
-interface ${enclosing_type} {
-  ${cursor}
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="test type and cast" enabled="true" id="com.powerflasher.fdt.ui.editor.template.is" name="is">if (${name} is ${type}) {
   var ${newName}:${type} = ${type}(${name});
   ${cursor}
