@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class constants" enabled="true" name="Ccconstants">//======================================================================&#13;
+//  Class constants&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class private methods" enabled="true" name="Ccimethods">//======================================================================&#13;
+//  Class private methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class protected methods" enabled="true" name="Ccomethods">//======================================================================&#13;
+//  Class protected methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Constructor comment" enabled="true" name="Cconstructor">//======================================================================&#13;
+//  Constructor&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class properties" enabled="true" name="Ccproperties">//======================================================================&#13;
+//  Class properties&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class public methods" enabled="true" name="Ccumethods">//======================================================================&#13;
+//  Class public methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class variables" enabled="true" name="Ccvariables">//======================================================================&#13;
+//  Class variables&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Dependencies" enabled="true" name="Cdependencies">//======================================================================&#13;
+//  Dependencies&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Event handlers" enabled="true" name="Cehandlers">//======================================================================&#13;
+//  Event handlers&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Events" enabled="true" name="Cevents">//----------------------------------&#13;
+//  Events&#13;
+//----------------------------------</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Function Group" enabled="true" name="Cfgroup">//------------------------------&#13;
+//  ${group}&#13;
+//------------------------------</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="group" enabled="true" name="Cgroup">//-- ${group} --//</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Private methods" enabled="true" name="Cimethods">//======================================================================&#13;
+//  Private methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates an empty class without an package declaration" enabled="true" id="com.powerflasher.fdt.ui.editor.template.class" name="class">/**
+ * @author ${user}
+ */
+class ${enclosing_type} ${cursor} 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Protected methods" enabled="true" name="Comethods">//======================================================================&#13;
+//  Protected methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates Constructor for a class" enabled="true" id="com.powerflasher.fdt.ui.editor.template.constructor" name="constructor">/**
+ * Construct a &lt;code&gt;${enclosing_type}&lt;/code&gt;.
+ */
+public function ${enclosing_type}() 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Overridden methods" enabled="true" name="Covmethods">//======================================================================&#13;
+//  Overridden methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Overridden protectedmethods" enabled="true" name="Covomethods">//======================================================================&#13;
+//  Overridden protected methods: ${DisplayObject}&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Overridden properties" enabled="true" name="Covproperties">//======================================================================&#13;
+//  Overridden properties: ${DisplayObject}&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Overridden public methods" enabled="true" name="Covumethods">//======================================================================&#13;
+//  Overridden public methods: ${DisplayObject}&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Properties" enabled="true" name="Cproperties">//======================================================================&#13;
+//  Properties&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Public methods" enabled="true" name="Cumethods">//======================================================================&#13;
+//  Public methods&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Variables" enabled="true" name="Cvariables">//======================================================================&#13;
+//  Variables&#13;
+//======================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="do-while loop" enabled="true" id="com.powerflasher.fdt.ui.editor.template.do" name="do">do 
+{
+    ${cursor}
+} while (${condition});</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Name of this function" enabled="true" name="fname">${enclosing_method}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Iterator over keys of an array using enumeration" enabled="true" id="com.powerflasher.fdt.ui.editor.template.foren" name="fore">for (var ${index}:String in ${array}) 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Iterator over value of an array using enumeration" enabled="true" id="com.powerflasher.fdt.ui.editor.template.foreach" name="foreach">for each (var ${index}:${type} in ${array}) 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Iterator over an array" enabled="true" id="com.powerflasher.fdt.ui.editor.template.forit" name="fori">for (var ${index}:int = 0; ${index} &lt; ${arrayLength}; ${index}++) 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="getter" enabled="true" name="getter">//------------------------------&#13;
+//  ${p}&#13;
+//------------------------------&#13;
+private var _${p}:${type}${cursor};&#13;
+public function get ${p}():${type} &#13;
+{&#13;
+    return _${p};&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="getter" enabled="true" name="gettersetter">//------------------------------&#13;
+//  ${p}&#13;
+//------------------------------&#13;
+private var _${p}:${type}${cursor};&#13;
+public function get ${p}():${type} &#13;
+{&#13;
+    return _${p};&#13;
+}&#13;
+public function set ${p}(value:${type}):void &#13;
+{&#13;
+    _${p} = value;&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="trace here" enabled="true" name="heret">"[${enclosing_type}/${enclosing_method}]"</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private function" enabled="true" name="ifunction">private function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="test type and cast" enabled="true" id="com.powerflasher.fdt.ui.editor.template.is" name="is">if (${name} is ${type}) 
+{
+    var ${newName}:${type} = ${type}(${name});
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private static const" enabled="true" name="isconst">private static const ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private static function" enabled="true" name="isfunction">private static function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private static var " enabled="true" name="isvar">private static var ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Template for the QuickTrace short cut." enabled="true" name="itt">"${trace_it}: " + (${trace_it})</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private var " enabled="true" name="ivar">private var ${name}:${String};${cursor}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="After metadata" enabled="true" name="Mafter">[After]
+public function ${tearDown}():void 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Async test metadata" enabled="true" name="Masynctest">[Test(async,timeout="${500}")] 
+public function ${test}():void 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Before metadata" enabled="true" name="Mbefore">[Before]
+public function ${setUp}():void 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Event metedata" enabled="true" name="Mevent">[Event(name="${complete}", type="${Event}")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Inject metadata" enabled="true" name="Minject">[Inject]&#13;
+public var ${name}:${Type};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="PostConstruct" enabled="true" name="Mpostconstruct">[PostConstruct]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Test suite metadata tag." enabled="true" name="Msuite">[Suite]
+[RunWith("org.flexunit.runners.Suite")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="swf metadata" enabled="true" name="Mswf">[SWF(width="${550}", height="${400}", backgroundColor="${0xFFFFFF}", frameRate="${30}")]</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Test metadata" enabled="true" name="Mtest">[Test]
+public function ${test}():void 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="protected function" enabled="true" name="ofunction">protected function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="protected static const" enabled="true" name="osconst">protected static const ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="protected static function" enabled="true" name="osfunction">protected static function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="protected static var " enabled="true" name="osvar">protected static var ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="protected var " enabled="true" name="ovar">protected var ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates an empty package declaration" enabled="true" id="com.powerflasher.fdt.ui.editor.template.package" name="package">package ${enclosing_package} 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="pairinobject" enabled="true" name="pairinobject">${v}:${v}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Template for the QuickTrace short cut." enabled="true" id="com.powerflasher.fdt.ui.editor.template.quicktrace" name="quicktrace">trace('${trace_it}: ' + (${trace_it}));</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="setter" enabled="true" name="setter">//------------------------------&#13;
+//  ${p}&#13;
+//------------------------------&#13;
+private var _${p}:${type} = 0;&#13;
+public function set ${p}(value:${type}):void &#13;
+{&#13;
+    _${p} = value;&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="setter" enabled="true" name="setteronly">public function set ${p}(value:${type}):void &#13;
+{&#13;
+    _${p} = value;&#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Set up test case" enabled="true" name="setuptestcase">//======================================================================
+//  Variables
+//======================================================================
+private var instance:${Type};
+//======================================================================
+//  Public methods
+//======================================================================
+[Before]
+public function ${setUp}():void 
+{
+    instance = new ${Type}();
+}
+[After]
+public function ${tearDown}():void 
+{
+    instance = null;
+}
+[Test]
+public function ${test}():void 
+{
+    ${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="trace current method" enabled="true" id="com.powerflasher.fdt.ui.editor.template.systrace" name="systrace">trace("${cursor}");</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="creates toString function" enabled="true" id="com.powerflasher.fdt.ui.editor.template.toString" name="toString">override public function toString():String 
+{
+    return "${enclosing_package_and_type}";
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public function" enabled="true" name="ufunction">public function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public static const" enabled="true" name="usconst">public static const ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public static function" enabled="true" name="usfunction">public static function ${func}(${cursor}):${void} &#13;
+{&#13;
+    &#13;
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public static var " enabled="true" name="usvar">public static var ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="public var " enabled="true" name="uvar">public var ${name}:${String}${cursor};</template></templates>
