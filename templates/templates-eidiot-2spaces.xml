@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class constants" enabled="true" name="Ccconstants">//==========================================================================&#13;
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Callbacks" enabled="true" name="Ccallbacks">//==========================================================================
+//  Callbacks
+//==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class constants" enabled="true" name="Ccconstants">//==========================================================================&#13;
 //  Class constants&#13;
 //==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Class private methods" enabled="true" name="Ccimethods">//==========================================================================&#13;
 //  Class private methods&#13;
