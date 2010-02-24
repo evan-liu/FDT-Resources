@@ -50,7 +50,11 @@ public function ${enclosing_type}() {
 //  Public methods&#13;
 //==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Variables" enabled="true" name="Cvariables">//==========================================================================&#13;
 //  Variables&#13;
-//==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="do-while loop" enabled="true" id="com.powerflasher.fdt.ui.editor.template.do" name="do">do {
+//==========================================================================</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="id for debug" enabled="true" name="debugid">//==========================================================================
+//  Debug ID
+//==========================================================================
+private static var __added__:int = 0;
+public var __id__:int = __added__++;</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="do-while loop" enabled="true" id="com.powerflasher.fdt.ui.editor.template.do" name="do">do {
   ${cursor}
 } while (${condition});</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Name of this function" enabled="true" name="fname">${enclosing_method}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Iterator over keys of an array using enumeration" enabled="true" id="com.powerflasher.fdt.ui.editor.template.foren" name="fore">for (var ${index}:String in ${array}) {
   ${cursor}
