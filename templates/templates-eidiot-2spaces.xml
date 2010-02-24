@@ -83,7 +83,7 @@ public function set ${p}(value:${Type}):void {&#13;
   
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private function" enabled="true" name="ifunction">private function ${func}(${cursor}):${void} {&#13;
   &#13;
-}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="test type and cast" enabled="true" id="com.powerflasher.fdt.ui.editor.template.is" name="is">if (${name} is ${type}) {
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="call einfo() here with debug id" enabled="true" name="infodebugid">einfo("[${enclosing_type}/${enclosing_method}] " + __id__, "");</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="test type and cast" enabled="true" id="com.powerflasher.fdt.ui.editor.template.is" name="is">if (${name} is ${type}) {
   var ${newName}:${type} = ${type}(${name});
   ${cursor}
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private static const" enabled="true" name="isconst">private static const ${name}:${String}${cursor};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="private static function" enabled="true" name="isfunction">private static function ${func}(${cursor}):${void} {&#13;
